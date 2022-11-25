@@ -2,10 +2,14 @@
 # yarn lockfile v1
 
 
-"@hiraokahypertools/pst-extractor@0.1.0-alpha.3":
+"@hiraokahypertools/pst-extractor@V:\\pst-extractor":
   version "0.1.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@hiraokahypertools/pst-extractor/-/pst-extractor-0.1.0-alpha.3.tgz#6afac701a8191886da3540bfd3717cc2bd392627"
-  integrity sha512-wdu/PrqRPd1UmCErb4cLyDO2a/KBSO67DK4HnO9mLJJ5KOOsQs2n6f8xWVzCVhfBteNR2W55JTSl/jyKjE99GQ==
+  dependencies:
+    iconv-lite "^0.6.3"
+    long "^5.2.0"
+
+"@hiraokahypertools/pst-extractor@file:../../pst-extractor":
+  version "0.1.0-alpha.3"
   dependencies:
     iconv-lite "^0.6.3"
     long "^5.2.0"

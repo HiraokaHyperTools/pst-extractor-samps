@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@hiraokahypertools/pst-extractor": "0.1.0-alpha.3",
+    "@hiraokahypertools/pst-extractor": "V:\\pst-extractor",
     "globby": "^11"
   }
 }
